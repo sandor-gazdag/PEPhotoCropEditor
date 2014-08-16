@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = "https://twitter.com/k_katsumi"
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "kishikawa katsumi" => "kishikawakatsumi@mac.com" }
-  s.source                = { :git => "https://github.com/sandor-gazdag/PEPhotoCropEditor.git", :tag => "v#{s.version}" }
+  s.source                = { :git => "https://github.com/sandor-gazdag/PEPhotoCropEditor.git", :head }
 
   s.ios.deployment_target = "5.0"
   s.requires_arc          = true
